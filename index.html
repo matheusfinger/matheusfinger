@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-width=1">
+  <title>Matheus Finger | Portfólio</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+  <style>
+    body, h1, h2, h3, h4, h5, h6 { font-family: "Roboto", sans-serif; }
+    .w3-bar .w3-button { padding: 16px; }
+  </style>
+</head>
+<body class="w3-light-grey">
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+      <a href="#home" class="w3-bar-item w3-button w3-wide">MATHEUS FINGER</a>
+      <div class="w3-right w3-hide-small">
+        <a href="#sobre" class="w3-bar-item w3-button">SOBRE MIM</a>
+        <a href="#atuais" class="w3-bar-item w3-button">PROJETOS ATUAIS</a>
+        <a href="#concluidos" class="w3-bar-item w3-button">CONCLUÍDOS</a>
+        <a href="#divulgacao" class="w3-bar-item w3-button">DIVULGAÇÃO CIENTÍFICA</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="w3-container w3-dark-grey w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Matheus Finger</b></h1>
+    <p>Estudante de Ciência de Dados | Desenvolvedor | Bioinformática</p>
+    <a href="#atuais" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-hover-opacity-off">Ver Projetos</a>
+  </header>
+
+  <!-- Sobre Mim -->
+  <div class="w3-container w3-padding-64" id="sobre">
+    <div class="w3-content" style="max-width:800px">
+      <h2 class="w3-center">Sobre Mim</h2>
+      <p class="w3-justify w3-text-grey w3-large">
+        Olá! Sou estudante do curso de Ciência de Dados e apaixonado por resolver problemas complexos através de software e análise de dados. Minha trajetória acadêmica e profissional transita por diversas áreas: desde a criação de pipelines robustos de Machine Learning (MLOps) e arquitetura de sistemas distribuídos, até o desenvolvimento de ferramentas open-source para bioinformática. Acredito na colaboração e no código aberto como motores para a inovação.
+      </p>
+    </div>
+  </div>
+
+  <!-- Projetos Atuais -->
+  <div class="w3-container w3-padding-64 w3-white" id="atuais">
+    <h2 class="w3-center">Projetos Atuais & Colaborações</h2>
+    <p class="w3-center w3-text-grey">Projetos em desenvolvimento. Pull Requests são muito bem-vindos!</p>
+    
+    <div class="w3-row-padding w3-margin-top" style="max-width:1200px; margin:auto;">
+      <div class="w3-half w3-margin-bottom">
+        <div class="w3-card w3-container w3-padding-24">
+          <h3>🧬 Montagem de Genes</h3>
+          <p>Ferramenta de montagem e alongamento de genes integrando ferramentas de alinhamento (inicialmente o <b>bbduk</b>) e montagem (atualmente <b>cap3</b>).</p>
+          <div class="w3-margin-bottom">
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Bioinformática</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">BBDuk</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">CAP3</span>
+          </div>
+          <a href="https://github.com/matheusfinger/montagem" target="_blank" class="w3-button w3-blue">Colabore no GitHub</a>
+        </div>
+      </div>
+      
+      <div class="w3-half w3-margin-bottom">
+        <div class="w3-card w3-container w3-padding-24">
+          <h3>🔍 Assistente de Anotação</h3>
+          <p>Sistema de auxílio na anotação de genes utilizando <b>BLAST</b>. Possui um "editor de texto" para seleção de regiões e um sistema de arquivos próprio para salvar as anotações.</p>
+          <div class="w3-margin-bottom">
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">BLAST</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">File System</span>
+          </div>
+          <a href="https://github.com/matheusfinger/anotador-aula" target="_blank" class="w3-button w3-blue">Colabore no GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projetos Concluídos -->
+  <div class="w3-container w3-padding-64" id="concluidos">
+    <h2 class="w3-center">Projetos Concluídos</h2>
+    <p class="w3-center w3-text-grey">Trabalhos acadêmicos desenvolvidos ao longo do curso com diferentes equipes.</p>
+
+    <div class="w3-row-padding w3-margin-top" style="max-width:1200px; margin:auto;">
+      
+      <!-- 1. Otimização Não-Linear -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-white w3-container w3-padding-16" style="min-height: 300px;">
+          <h4>📈 Otimização Não-Linear</h4>
+          <p>Ferramenta com interface gráfica construída com PyQt5 para realizar análises e otimizações de funções matemáticas, abrangendo a parametrização de funções multivariáveis.</p>
+          <div class="w3-margin-bottom">
+            <span class="w3-tag w3-dark-grey w3-small">Python</span>
+            <span class="w3-tag w3-dark-grey w3-small">PyQt5</span>
+          </div>
+          <a href="https://github.com/matheusfinger/otimizacao_nao_linear" target="_blank" class="w3-button w3-black w3-small">Ver Repositório</a>
+        </div>
+      </div>
+
+      <!-- 2. Cidade Inteligente -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-white w3-container w3-padding-16" style="min-height: 300px;">
+          <h4>🏙️ Simulação de Smart City</h4>
+          <p>Arquitetura distribuída em topologia estrela com um Gateway em Python, diversos sensores (Python e Java) e um dashboard analítico feito em Streamlit consumindo API TCP.</p>
+          <div class="w3-margin-bottom">
+            <span class="w3-tag w3-dark-grey w3-small">Sistemas Distribuídos</span>
+            <span class="w3-tag w3-dark-grey w3-small">Streamlit</span>
+          </div>
+          <a href="https://github.com/matheusfinger/cidade-inteligente" target="_blank" class="w3-button w3-black w3-small">Ver Repositório</a>
+        </div>
+      </div>
+
+      <!-- 3. Gerenciador de Buffer -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-white w3-container w3-padding-16" style="min-height: 300px;">
+          <h4>🗄️ Buffer LRU-K (Seal-DB)</h4>
+          <p>Implementação de um gerenciador de buffer LRU-K (k=2) no SGBD experimental seal-db. O funcionamento do algoritmo foi detalhado em um vídeo explicativo.</p>
+          <div class="w3-margin-bottom">
+            <span class="w3-tag w3-dark-grey w3-small">SGBD</span>
+            <span class="w3-tag w3-dark-grey w3-small">Algoritmos</span>
+          </div>
+          <a href="https://www.youtube.com/watch?v=DtaM4knKBLk" target="_blank" class="w3-button w3-black w3-small">Ver Demonstração</a>
+        </div>
+      </div>
+
+      <!-- 4. Bicicletar -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-white w3-container w3-padding-16" style="min-height: 320px;">
+          <h4>🚲 Dashboard Bicicletar</h4>
+          <p>Painel interativo explorando o fluxo de mobilidade urbana em Fortaleza, utilizando mapas de estações, heatmaps de uso e grafos de fluxos entre Regionais construídos com D3.js.</p>
+          <div class="w3-margin-bottom">
+            <span class="w3-tag w3-dark-grey w3-small">D3.js</span>
+            <span class="w3-tag w3-dark-grey w3-small">Dataviz</span>
+          </div>
+          <a href="https://github.com/caikfra/biciletar_fortaleza_2024" target="_blank" class="w3-button w3-black w3-small">Ver Repositório</a>
+        </div>
+      </div>
+
+      <!-- 5. MLOps -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-white w3-container w3-padding-16" style="min-height: 320px;">
+          <h4>⚙️ MLOps - Previsão de Diabetes</h4>
+          <p>Pipeline robusta de Machine Learning no dataset BRFSS, que realiza automaticamente a ingestão de dados, monitoramento contínuo de Model Drift, treino e exportação do modelo.</p>
+          <div class="w3-margin-bottom">
+            <span class="w3-tag w3-dark-grey w3-small">MLOps</span>
+            <span class="w3-tag w3-dark-grey w3-small">Poetry</span>
+          </div>
+          <a href="https://github.com/matheusfinger/model-pipeline-brfss" target="_blank" class="w3-button w3-black w3-small">Ver Repositório</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Divulgação Científica -->
+  <div class="w3-container w3-padding-64 w3-white" id="divulgacao">
+    <div class="w3-content" style="max-width:800px">
+      <h2 class="w3-center">Divulgação Científica</h2>
+      <p class="w3-center w3-text-grey w3-margin-bottom">Aproximando temas complexos da sociedade.</p>
+      
+      <div class="w3-row-padding">
+        <div class="w3-margin-bottom">
+          <div class="w3-card w3-padding-16 w3-center w3-light-grey">
+            <h4>🎬 Vídeo e Podcast sobre Expressão Gênica</h4>
+            <p class="w3-small">Material de divulgação produzido na disciplina de Introdução à Divulgação Científica da professora Emanuele Santos.</p>
+            <a href="https://emanueles.github.io/dc-idc/p/equipe10-biologiamolecular/" class="w3-button w3-black w3-small">Acesse a postagem</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-dark-grey w3-padding-32">
+    <p>Criado por Matheus Finger</p>
+    <div class="w3-xlarge w3-section">
+      <a href="https://github.com/matheusfinger" target="_blank" style="text-decoration: none;">GitHub</a>
+    </div>
+  </footer>
+
+</body>
+</html>
