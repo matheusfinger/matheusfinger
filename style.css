@@ -21,9 +21,6 @@ body, h1, h2, h3, h4, h5, h6 {
     position: relative;
     color: transparent;
     animation: text_reveal .3s ease forwards;
-}
-
-#home h1:nth-child(1) {
     animation-delay: 1.2s;
 }
 
@@ -37,10 +34,14 @@ body, h1, h2, h3, h4, h5, h6 {
     animation: text_reveal_box 1s ease;
     animation-delay: .5s;
     background-color: #FFFFFF;
+    animation-delay: .8s;
 }
 
-#home h1:nth-child(1) span {
-    animation-delay: .8s;
+/* Sobre */
+#sobre h2, #sobre p{
+    color: transparent;
+    animation: aparecer .8s ease forwards;
+    animation-delay: 1.5s;
 }
 
 /* Keyframes */
@@ -58,5 +59,11 @@ body, h1, h2, h3, h4, h5, h6 {
     100%{
         width: 0;
         left: 100%;
+    }
+}
+
+@keyframes aparecer{
+    100%{
+        color: #000000
     }
 }
