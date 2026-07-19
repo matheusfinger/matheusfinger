@@ -1,0 +1,62 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Título */
+#home h1 {
+    display: block;
+    width: fit-content;
+    font-size: 5rem;
+    position: relative;
+    color: transparent;
+    animation: text_reveal .3s ease forwards;
+}
+
+#home h1:nth-child(1) {
+    animation-delay: 1.2s;
+}
+
+/* Animação do título */
+#home h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    animation: text_reveal_box 1s ease;
+    animation-delay: .5s;
+    background-color: #FFFFFF;
+}
+
+#home h1:nth-child(1) span {
+    animation-delay: .8s;
+}
+
+/* Keyframes */
+@keyframes text_reveal{
+    100%{
+        color: #FFFFFF
+    }
+}
+
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
